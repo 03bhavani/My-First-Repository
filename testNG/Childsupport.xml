@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="childsupport" verbose="1" >
+	<parameter name="url" value="https://childsupport.ca.gov/"></parameter>
+	<parameter name="email" value="232.fgmail.com"></parameter>
+  <test name="contactUs" >
+	  <parameter name="title" value="CA Child Support Services"></parameter>
+    <classes>
+       <class name="First_testing.TC_04_childsupport" />
+    </classes>
+  </test>
+ 
+ </suite>
+ 
+ 

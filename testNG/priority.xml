@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="priority" verbose="1" >
+	  <test name="print_test" >
+	  <classes>
+       <class name="First_testing.TC_05_learning_priority" />
+    </classes>
+  </test>
+    
+  
+  	<test name="groups_test" >
+		 <groups>
+			 <run>
+				 <include name="Smoke"></include>
+			 </run>
+			 
+		</groups> 
+	  <classes>
+		<class name="First_testing.test_suite" />  
+       <class name="First_testing.TC_05_learning_groups" />
+    </classes>
+  </test>
+ 
+ </suite>

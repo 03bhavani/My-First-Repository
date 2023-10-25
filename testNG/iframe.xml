@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="iFrame" verbose="1" >
+  <test name="Testing" >
+    <classes>
+       <class name="First_testing.iframe_learning" />
+    </classes>
+  </test>
+ 
+ </suite>

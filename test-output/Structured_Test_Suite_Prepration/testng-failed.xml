@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Structured_Test_Suite_Prepration]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="W3school(failed)">
+    <classes>
+      <class name="testScripts.W3School_Test">
+        <methods>
+          <include name="test_theLogo"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="title_url"/>
+          <include name="test_the_SearchTextBox"/>
+        </methods>
+      </class> <!-- testScripts.W3School_Test -->
+    </classes>
+  </test> <!-- W3school(failed) -->
+  <test thread-count="2" parallel="tests" name="Google(failed)">
+    <classes>
+      <class name="testScripts.GoogleTest">
+        <methods>
+          <include name="title_url"/>
+          <include name="test_the_SearchTextBox"/>
+          <include name="test_theLogo"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testScripts.GoogleTest -->
+    </classes>
+  </test> <!-- Google(failed) -->
+</suite> <!-- Failed suite [Structured_Test_Suite_Prepration] -->
