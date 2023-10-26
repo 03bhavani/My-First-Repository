@@ -69,7 +69,7 @@
 
                     <!-- This is For TestNG maven Run -->
                     <suiteXmlFiles>
-               	        <suiteXmlFile>${suiteXmlFile}</suiteXmlFile> 
+               	       
                        
                         
                      </suiteXmlFiles>
