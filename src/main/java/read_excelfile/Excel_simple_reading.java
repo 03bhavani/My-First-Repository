@@ -17,7 +17,7 @@ public class Excel_simple_reading {
 	
 	public void read_excel_aspercondition () throws IOException {
 	      
-		read_excel_file("Smoke_3","Email");
+	//	read_excel_file("Smoke_3","Email");
 		
 	}
 	
